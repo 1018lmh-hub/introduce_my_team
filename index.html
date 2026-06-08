@@ -6,9 +6,15 @@
     <title>로그인</title>
   </head>
   <body>
-    <h1>로그인</h1>
-    <input type="text" placeholder="아이디" /><br /><br />
-    <input type="password" placeholder="비밀번호 " /><br /><br />
-    <button>로그인</button>
+
+
+    <form action="http://localhost:8088/api/auth">
+      <input type="text" name="memberId" id="memberId" />
+      <input type="password" name="memberPwd" id="memberPwd" />
+
+      <button>버어튼</button>
+
+    </form>
+
   </body>
 </html>
